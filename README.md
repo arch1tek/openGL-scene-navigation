@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # openGL-scene-navigation
-In this project we recreate our own hostel room with the help of openGL primitives and use openGL transformations to put the props used at the right place. We also navigate our scene by panning, zooming, and rolling the camera.
+
 =======
 # Computer Graphics -  Assignment 2
 
@@ -38,4 +37,3 @@ use the ***ARROW*** keys to **ROTATE** scene
 use the ***I,J,K,L*** keys to **ROLL** camera
 
 ***mouse-click*** to **change time of the day**
->>>>>>> eaa9a1a (initial commit)

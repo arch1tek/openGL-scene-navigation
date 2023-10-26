@@ -83,23 +83,23 @@ This file hosts the Room class which essentially has the functions to draw the c
 
 ##### **Transformation Functions:**
 
-######```glPushMatrix() and glPopMatrix():```
+###### ```glPushMatrix() and glPopMatrix():```
 
 *Description*: These functions are used to manage the transformation state by pushing and popping matrices from the stack. They allow you to isolate transformations, so changes affect only specific parts of the scene.
 
-######```glTranslatef(x, y, z):```
+###### ```glTranslatef(x, y, z):```
 
 *Description*: This function applies translation to the current matrix, moving objects in the specified direction along the x, y, and z axes.
 
 *Parameters*: x, y, and z represent the translation values along the x, y, and z axes.
 
-######```glRotatef(angle, x, y, z):```
+###### ```glRotatef(angle, x, y, z):```
 
 *Description*: This function applies rotation to the current matrix, rotating objects around a specified axis by the given angle in degrees.
 
 *Parameters*: angle is the rotation angle, and x, y, and z define the axis of rotation.
 
-######```glScalef(x, y, z):```
+###### ```glScalef(x, y, z):```
 
 *Description*: This function scales the current matrix, affecting the size of objects along the x, y, and z axes.
 
@@ -107,25 +107,25 @@ This file hosts the Room class which essentially has the functions to draw the c
 
 #####**Object Creation/Drawing Functions:**
 
-######```glColor3f(r, g, b):```
+###### ```glColor3f(r, g, b):```
 
 *Description*: This function sets the current drawing color to the specified RGB color values, which will be used for subsequent object drawing operations.
 
 *Parameters*: r, g, and b represent the red, green, and blue color components.
 
-######```glVertex3fv(vertices[vertexIndex]):```
+###### ```glVertex3fv(vertices[vertexIndex]):```
 
 *Description*: This function specifies a vertex for creating geometry by defining its coordinates. It's part of the process of defining the geometry of objects to be drawn.
 
 *Parameters*: vertices is an array containing the vertex coordinates, and vertexIndex is the index of the specific vertex to be used.
 
-######```glBegin(mode) and glEnd():```
+###### ```glBegin(mode) and glEnd():```
 
 *Description*: glBegin marks the beginning of a group of vertices to be drawn, and glEnd marks the end. These functions help define the boundaries of geometric primitives (e.g., polygons) to be drawn.
 
 *Parameters*: mode specifies the type of primitive to be drawn (e.g., GL\_QUADS, GL\_TRIANGLE\_FAN).
 
-######```glutSolidCube(size), glutWireCube(size), glutSolidCone(base, height, slices, stacks), glutSolidSphere(radius, slices, stacks), glutSolidTorus(innerRadius, outerRadius, sides, rings):```
+###### ```glutSolidCube(size), glutWireCube(size), glutSolidCone(base, height, slices, stacks), glutSolidSphere(radius, slices, stacks), glutSolidTorus(innerRadius, outerRadius, sides, rings):```
 
 *Description*: These functions are responsible for creating and drawing 3D objects such as cubes, cones, spheres, and tori. They define the appearance and geometry of the objects to be drawn.
 

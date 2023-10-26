@@ -44,7 +44,7 @@ The `Scene` class orchestrates a 3D room environment in OpenGL and GLUT.  It is 
 
 - `renderScene`: It orchestrates the rendering process. This function adjusts the viewpoint, rotation, and translates the camera, making it the central hub for visualizing the 3D room.
 - `reshape`: Responsible for reshaping the window when changes in width and height occur. This function ensures that the visual representation adapts properly to different screen dimensions.
-- ` ``specialKeys`: This function controls scene rotations. When arrow keys are pressed, it determines whether to roll the scene clockwise or counterclockwise along the X or Y axis.
+- `specialKeys`: This function controls scene rotations. When arrow keys are pressed, it determines whether to roll the scene clockwise or counterclockwise along the X or Y axis.
 - `keyboardKeys`: It handles keyboard input for panning, zooming, and camera rolling. Depending on the key pressed, the function interprets instructions to move the camera up, down, left, right, zoom in, or zoom out.
 - `mouseClick`: This function caters to mouse interactions, particularly when the left mouse button is clicked. It triggers a change in the time of day within the room, offering a dynamic and interactive element to the scene.
 

@@ -1,15 +1,7 @@
 # openGL-scene-navigation
-<<<<<<< HEAD
-
-=======
-# Computer Graphics -  Assignment 2
-
-### Title: *Scene Creation and navigation*
-=======
 =========================
 # <a name="_l9b06nhet9up"></a>**Computer Graphics -  Assignment 2**
 ### <a name="_qsoicqe2jwjb"></a>**Title: *Scene Creation and Navigation***
->>>>>>> e8bb5ab (updated readme)
 
 This project is made by:
 
@@ -142,7 +134,3 @@ These functions work together in OpenGL/GLUT applications to transform and rende
 
 
 
-<<<<<<< HEAD
-***mouse-click*** to **change time of the day**
-=======
->>>>>>> e8bb5ab (updated readme)

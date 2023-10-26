@@ -105,7 +105,7 @@ This file hosts the Room class which essentially has the functions to draw the c
 
 *Parameters*: x, y, and z represent the scaling factors for each axis.
 
-#####**Object Creation/Drawing Functions:**
+##### **Object Creation/Drawing Functions:**
 
 ###### ```glColor3f(r, g, b):```
 

@@ -1,0 +1,14 @@
+\hypertarget{Scene_8h}{}\doxysection{gl-\/code/\+Scene.h File Reference}
+\label{Scene_8h}\index{gl-\/code/Scene.h@{gl-\/code/Scene.h}}
+{\ttfamily \#include \char`\"{}Room.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$GL/glut.\+h$>$}\newline
+{\ttfamily \#include $<$GL/glu.\+h$>$}\newline
+Include dependency graph for Scene.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classScene}{Scene}}
+\begin{DoxyCompactList}\small\item\em this class provides the scene, room object, keyboard controls and mouse controls \end{DoxyCompactList}\end{DoxyCompactItemize}

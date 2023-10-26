@@ -1,0 +1,146 @@
+\hypertarget{classScene}{}\doxysection{Scene Class Reference}
+\label{classScene}\index{Scene@{Scene}}
+
+
+this class provides the scene, room object, keyboard controls and mouse controls  
+
+
+
+
+{\ttfamily \#include $<$Scene.\+h$>$}
+
+
+
+Collaboration diagram for Scene\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScene_ad10176d75a9cc0da56626f682d083507}\label{classScene_ad10176d75a9cc0da56626f682d083507}} 
+\mbox{\hyperlink{classScene_ad10176d75a9cc0da56626f682d083507}{Scene}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classScene}{Scene}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a935c4e0779a6e088d8732edee66b9ab9}\label{classScene_a935c4e0779a6e088d8732edee66b9ab9}} 
+void \mbox{\hyperlink{classScene_a935c4e0779a6e088d8732edee66b9ab9}{render\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em render scene callback function \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScene_aaf8db17c152c4ee744ca5c8545ba88b5}{reshape}} (int w, int h)
+\begin{DoxyCompactList}\small\item\em reshape callback function to handle reshapes \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScene_a8375bd0cc5ae3eaf7903d1ad748287b9}{special\+Keys}} (int key, int x, int y)
+\begin{DoxyCompactList}\small\item\em special\+Keys callback function to handle rotations \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScene_a57c2fe64e84f8a04e5cd70363449cd64}{keyboard\+Keys}} (unsigned char key, int x, int y)
+\begin{DoxyCompactList}\small\item\em keyboardkeys callback function to handle panning and zooming \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScene_a343f145bf64af67410b3e773453e8c10}{mouse\+Click}} (int button, int state, int x, int y)
+\begin{DoxyCompactList}\small\item\em mouseclick callback function to handle mouseclicks and change time of the day \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScene_ad8706c0d747c7cc7d996bb690e938d1b}\label{classScene_ad8706c0d747c7cc7d996bb690e938d1b}} 
+float \mbox{\hyperlink{classScene_ad8706c0d747c7cc7d996bb690e938d1b}{angleX}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em rotation angle for x axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_ab60da918122d41fe47794ced01153085}\label{classScene_ab60da918122d41fe47794ced01153085}} 
+float \mbox{\hyperlink{classScene_ab60da918122d41fe47794ced01153085}{angleY}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em rotation angle for y axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a3d4995e80369c4de873a5cb45569719a}\label{classScene_a3d4995e80369c4de873a5cb45569719a}} 
+float \mbox{\hyperlink{classScene_a3d4995e80369c4de873a5cb45569719a}{angle\+Xbuff}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em rolling angle for y axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a62bea98aaccc917c35e3c84e8fef24dc}\label{classScene_a62bea98aaccc917c35e3c84e8fef24dc}} 
+float \mbox{\hyperlink{classScene_a62bea98aaccc917c35e3c84e8fef24dc}{angle\+Ybuff}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em rolling angle for y axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a5f72f0f12c336a29aafa7c9a7ee60c7d}\label{classScene_a5f72f0f12c336a29aafa7c9a7ee60c7d}} 
+float \mbox{\hyperlink{classScene_a5f72f0f12c336a29aafa7c9a7ee60c7d}{cameraX}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em poition of camera on x axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_ad550163df1b067ce46128adee17044ae}\label{classScene_ad550163df1b067ce46128adee17044ae}} 
+float \mbox{\hyperlink{classScene_ad550163df1b067ce46128adee17044ae}{cameraY}} = 0.\+0
+\begin{DoxyCompactList}\small\item\em poition of camera on y axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a1403743228a8e29469491e0396c1ac2e}\label{classScene_a1403743228a8e29469491e0396c1ac2e}} 
+float \mbox{\hyperlink{classScene_a1403743228a8e29469491e0396c1ac2e}{cameraZ}} = -\/5.\+0
+\begin{DoxyCompactList}\small\item\em poition of camera on z axis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScene_a3bd871eed1d55712b487ec703a64fbde}\label{classScene_a3bd871eed1d55712b487ec703a64fbde}} 
+\mbox{\hyperlink{classRoom}{Room}} $\ast$ \mbox{\hyperlink{classScene_a3bd871eed1d55712b487ec703a64fbde}{room}}
+\begin{DoxyCompactList}\small\item\em room object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class provides the scene, room object, keyboard controls and mouse controls 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classScene_a57c2fe64e84f8a04e5cd70363449cd64}\label{classScene_a57c2fe64e84f8a04e5cd70363449cd64}} 
+\index{Scene@{Scene}!keyboardKeys@{keyboardKeys}}
+\index{keyboardKeys@{keyboardKeys}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{keyboardKeys()}{keyboardKeys()}}
+{\footnotesize\ttfamily void Scene\+::keyboard\+Keys (\begin{DoxyParamCaption}\item[{unsigned char}]{key,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+keyboardkeys callback function to handle panning and zooming 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & key pressed \\
+\hline
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScene_a343f145bf64af67410b3e773453e8c10}\label{classScene_a343f145bf64af67410b3e773453e8c10}} 
+\index{Scene@{Scene}!mouseClick@{mouseClick}}
+\index{mouseClick@{mouseClick}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{mouseClick()}{mouseClick()}}
+{\footnotesize\ttfamily void Scene\+::mouse\+Click (\begin{DoxyParamCaption}\item[{int}]{button,  }\item[{int}]{state,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+mouseclick callback function to handle mouseclicks and change time of the day 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & button \\
+\hline
+{\em state} & state \\
+\hline
+{\em x} & x position of mouse \\
+\hline
+{\em y} & y position of mouse \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScene_aaf8db17c152c4ee744ca5c8545ba88b5}\label{classScene_aaf8db17c152c4ee744ca5c8545ba88b5}} 
+\index{Scene@{Scene}!reshape@{reshape}}
+\index{reshape@{reshape}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{reshape()}{reshape()}}
+{\footnotesize\ttfamily void Scene\+::reshape (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+reshape callback function to handle reshapes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & window width \\
+\hline
+{\em h} & window height \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScene_a8375bd0cc5ae3eaf7903d1ad748287b9}\label{classScene_a8375bd0cc5ae3eaf7903d1ad748287b9}} 
+\index{Scene@{Scene}!specialKeys@{specialKeys}}
+\index{specialKeys@{specialKeys}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{specialKeys()}{specialKeys()}}
+{\footnotesize\ttfamily void Scene\+::special\+Keys (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+special\+Keys callback function to handle rotations 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & key pressed \\
+\hline
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+gl-\/code/Scene.\+h\end{DoxyCompactItemize}
